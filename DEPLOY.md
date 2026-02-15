@@ -25,6 +25,10 @@ Quick checklist:
 - [ ] Update frontend `server` constant to use `import.meta.env.VITE_SERVER_URL` instead of hardcoded `http://localhost:5000` before or after deployment.
 - [ ] Replace hardcoded Razorpay test key in the frontend with `VITE_RAZORPAY_KEY`.
 
+Node / Rollup note:
+- Ensure Netlify uses Node 18 for the frontend build: this repo includes `frontend/.nvmrc` (18) and `frontend/package.json` pins `engines.node` to `18.x`.
+- If you see native Rollup errors complaining about `@rollup/rollup-*-gnu`, clear Netlify build cache and redeploy so the environment picks up Node 18 and installs correct optional deps.
+
 Optional improvements:
 - Add `engines.node` to `server/package.json` to pin Node version for Render.
 - Normalize database env variable name to `MONGODB_URI` in `server/database/db.js` (currently it reads `DB`).
