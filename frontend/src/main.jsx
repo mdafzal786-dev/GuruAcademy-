@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
-import { UserContextProvider } from "./context/userContext.jsx";
+import { UserContextProvider } from "./context/UserContext.jsx";
 import { CourseContextProvider } from "./context/CourseContext.jsx";
 import { ProductContextProvider } from "./context/ProductContext.jsx";
 
