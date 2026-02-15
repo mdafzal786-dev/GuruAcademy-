@@ -11,7 +11,7 @@ import toast from "react-hot-toast";
 // import { UserData } from '../../context/UserContext';
 import Loading from "../../components/loading/Loading";
 import { ProductData } from "../../context/ProductContext";
-import { UserData } from "../../context/UserContext";
+import { UserData } from "../../context/userContext";
 
 const ProductDescription = ({ user }) => {
   const params = useParams();

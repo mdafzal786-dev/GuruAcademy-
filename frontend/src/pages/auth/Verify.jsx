@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./auth.css";
 import { Link, useNavigate } from "react-router-dom";
-import { UserData } from "../../context/UserContext";
+import { UserData } from "../../context/userContext";
 import ReCAPTCHA from "react-google-recaptcha";
 import logo from '../../assets/Image/logo.png'
 

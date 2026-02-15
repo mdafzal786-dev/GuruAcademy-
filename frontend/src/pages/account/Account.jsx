@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import { MdDashboard } from "react-icons/md";
 import "./account.css";
 import { IoMdLogOut } from "react-icons/io";
-import { UserData } from "../../context/UserContext";
+import { UserData } from "../../context/userContext";
 import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
 

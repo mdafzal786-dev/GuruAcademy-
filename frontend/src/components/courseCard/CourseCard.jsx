@@ -2,7 +2,7 @@
 import React from "react";
 import "./courseCard.css";
 import { server } from "../../main";
-import { UserData } from "../../context/UserContext";
+import { UserData } from "../../context/userContext";
 import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 import axios from "axios";

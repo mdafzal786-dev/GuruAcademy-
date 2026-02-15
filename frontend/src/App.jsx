@@ -10,14 +10,14 @@ import Verify from './pages/auth/Verify';
 import Footer from './components/footer/Footer';
 import About from './pages/about/About';
 import Account from './pages/account/Account';
-import { UserData } from './context/UserContext';
+import { UserData } from './context/userContext';
 import Loading from './components/loading/Loading';
 import Courses from './pages/courses/courses';
 import Notes from './pages/Ebook/notes'
 import ResultsB from './pages/Result/resultb'
 import ResultC from './pages/Result/resultc'
 import CourseDescription from './pages/coursedescription/CourseDescription';
-import PaymentSuccess from "./pages/paymentsuccess/PaymentSuccess";
+import PaymentSuccess from "./pages/paymentSuccess/PaymentSuccess";
 import Dashbord from './pages/dashboard/Dashboard';
 import CourseStudy from './pages/coursestudy/CourseStudy';
 import Lecture from './pages/lecture/Lecture';

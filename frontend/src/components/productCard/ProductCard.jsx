@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 import axios from "axios";
 import { ProductData } from "../../context/ProductContext";
-import { UserData } from "../../context/UserContext";
+import { UserData } from "../../context/userContext";
 
 const ProductCard = ({ product }) => {
   const navigate = useNavigate();
