@@ -42,7 +42,7 @@ const ProductDescription = ({ user }) => {
       );
 
       const options = {
-        key: "rzp_test_OGrO4nQBmIy32X", // Enter the Key ID generated from the Dashboard
+        key: import.meta.env.VITE_RAZORPAY_KEY || "rzp_test_OGrO4nQBmIy32X", // Use Vite env or fallback
         amount: order.id, // Amount is in currency subunits (paise)
         currency: "INR",
         name: "Guru Academy", // Business name
