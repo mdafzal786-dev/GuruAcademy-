@@ -1,10 +1,11 @@
 /* eslint-disable react/prop-types */
 import { createContext, useContext, useEffect, useState } from "react";
 import axios from "axios";
-import { server } from "../main";
 import toast, { Toaster } from "react-hot-toast";
 
 const UserContext = createContext();
+
+const server = import.meta.env.VITE_SERVER_URL || "http://localhost:5000";
 
 export const UserContextProvider = ({children}) => {
   const [user, setUser] = useState([]);
